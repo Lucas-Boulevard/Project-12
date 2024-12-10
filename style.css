@@ -1,0 +1,176 @@
+body{
+    background-color: #c5e4e7;
+    font-family: "Space Mono", monospace;
+}
+
+.img1{
+    display: block;
+    margin: 10% auto;
+}
+
+.container{
+    border-radius: 1em;
+    background-color: white;
+    padding: 1em;
+}
+
+.input{
+    background-image: url("./images/icon-dollar.svg");
+    background-repeat: no-repeat;
+    background-position:left;
+    padding: 1em;
+    display: block;
+    width: 90%;
+    text-align: right;
+    background-color: #f3f8fb;
+    border: none;
+}
+
+.input1{
+    background-image: url("./images/icon-person.svg");
+    background-repeat: no-repeat;
+    background-position:left;
+    padding: 1em;
+    display: block;
+    width: 90%;
+    text-align: right;
+    background-color: #f3f8fb;
+    border: none;
+}
+
+.Ordr-btn{
+    width: 100%;
+}
+
+.btn{
+    width: 45%;
+    margin: 0.2em;
+    color: white;
+    background-color: #00474b;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 0.5em;
+    padding: 0.7em 3em 0.7em 3em;
+    border: none;
+
+}
+
+.btn:hover{
+    background-color: #26c2ad;
+}
+
+.btn-back{
+    background-color: #26c2ad;
+}
+
+.btn2{
+    width: 30%;
+    margin: 0.2em;
+    text-align: right;
+    font-size: medium;
+    font-weight: bold;
+    border: none;
+    background-color: #f3f8fb;
+    border-radius: 0.5em;
+    padding: 0.7em 3em 0.7em 0;
+
+}
+
+.container-result{
+    width: 90%;
+    margin: 8% auto;
+    background-color: #00474b;
+    border-radius: 0.8em;
+    padding: 1em;
+    color: white;
+}
+
+.transparence{
+    color: rgba(255, 255, 255, 0.685);
+    font-size: small;
+    margin-top: -3em;
+}
+
+
+.reset-btn{
+    width: 100%;
+    margin-top: 1em;
+    color: white;
+    background-color: #0d686d;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 0.5em;
+    padding: 0.7em 3em 0.7em 3em;
+    border: none;
+}
+
+.reset-btn:hover{
+    background-color: #26c2ad;
+}
+
+
+.flex-result{
+    display: flex;
+    justify-content: space-between;
+}
+
+.chiffre{
+    color: #26c2ad;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.chiffre1{
+    color: #26c2ad;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+@media only screen and (min-width: 1440px) {
+
+    .container{
+        display: flex;
+        width: 70%;
+        margin: -10em auto;
+        padding: 3em;
+    }
+
+    .img1{
+        margin: 5% auto 13%;
+    }
+
+    .container-bill{
+        width: 50%;
+    }
+
+    .container-result{
+        width: 50%;
+        margin: 0;
+        padding: 2.5em;
+    }
+    .chiffre{
+        color: #26c2ad;
+        font-size: xx-large;
+    }
+    
+    .chiffre1{
+        color: #26c2ad;
+        font-size: xx-large;
+    }
+
+    .reset-btn{
+        margin-bottom: -2em;
+        position: relative;
+        top : 2em;
+    }
+    .btn2{
+        width: 35%;
+    }
+    
+}

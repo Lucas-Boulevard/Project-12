@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="./app.js" defer></script>
+  <title>Project 12</title>
+</head>
+<body>
+  <img class="img1" src="./images/logo.svg" alt="">
+  <main class="container">
+    <div class="container-bill">
+      <p>Bill</p>
+      <input class="input" type="number" id="number1" name="number1" placeholder="0" required />
+      <div class="Ordr-btn">
+        <p>Select Tip %</p>
+        <button class="btn">5</button>
+        <button class="btn">10</button>
+        <button class="btn">15</button>
+        <button class="btn">25</button>
+        <button class="btn">50</button>
+        <input class="btn2" type="number" id="number" name="number" placeholder="Custom" required />
+      </div>
+      <p>Number of People</p>
+      <input class="input1" type="number" id="number1" name="number1" placeholder="1 person" required />
+    </div>
+    <div class="container-result">
+      <div class="flex-result">
+        <p>Tip Amount</p>
+        <p class="chiffre">$0.00</p>
+      </div>
+      <p class="transparence">/ person</p>
+      <div class="flex-result">
+        <p>Total</p>
+        <p class="chiffre1">$0.00</p>
+      </div>
+      <p class="transparence">/ person</p>
+      <button class="reset-btn">Reset</button>
+    </div>
+  </main>
+</body>
+</html>
